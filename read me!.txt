@@ -1,0 +1,4 @@
+xóa model.h5 nếu muốn chạy lại epochs (train lại từ đầu). chạy hàm main để train: py main.py
+toàn bộ đã được train chỉ cần chạy testmodel để bắt đầu nhận dạng, nhấn nút q để thoát giao diện nhận dạng. chạy trên visual code: py testmodel.py 
+chú ý: camera có thể chưa đc nhận diện ngay, thay đầu vào ở đoạn code "video = cv2.VideoCapture(0, cv2.CAP_DSHOW)" (dòng 29)
+thay số 0 (chỗ "(0, cv2." bằng 1 2 3 đến khi nhận diện đc web cam hoặc camera
